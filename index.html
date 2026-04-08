@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CI/CD by Amey Sharma</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            color: #ffd369;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+            background: rgba(0,0,0,0.3);
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+
+        .highlight {
+            color: #ffd369;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>CI/CD Pipeline</h1>
+        <p>By <span class="highlight">Amey Sharma</span></p>
+    </header>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>🚀 What is CI/CD?</h2>
+            <p>
+                CI/CD stands for Continuous Integration and Continuous Deployment/Delivery.
+                It is a modern software development practice that automates building,
+                testing, and deploying applications quickly and efficiently.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>⚙️ Continuous Integration (CI)</h2>
+            <p>
+                Continuous Integration ensures that developers frequently merge their code into a shared repository.
+                Every change is automatically tested to detect errors early.
+            </p>
+            <ul>
+                <li>Frequent code commits</li>
+                <li>Automated builds</li>
+                <li>Automated testing</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>📦 Continuous Delivery (CD)</h2>
+            <p>
+                Continuous Delivery ensures that code changes are automatically prepared for release to production.
+                It allows faster and more reliable releases.
+            </p>
+            <ul>
+                <li>Automated release process</li>
+                <li>Staging environment testing</li>
+                <li>Manual or automatic deployment</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>🌐 Continuous Deployment</h2>
+            <p>
+                In Continuous Deployment, every change that passes testing is automatically deployed to production
+                without human intervention.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>✨ Benefits of CI/CD</h2>
+            <ul>
+                <li>Faster development cycles</li>
+                <li>Improved code quality</li>
+                <li>Reduced manual errors</li>
+                <li>Quick bug detection</li>
+                <li>Better collaboration among teams</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>🛠️ Popular CI/CD Tools</h2>
+            <ul>
+                <li>Jenkins</li>
+                <li>GitHub Actions</li>
+                <li>GitLab CI/CD</li>
+                <li>CircleCI</li>
+                <li>Azure DevOps</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Made with ❤️ by <span class="highlight">Amey Sharma</span></p>
+        <p>Special Thanks to <span class="highlight">Sankalp Sir</span> 🙏</p>
+    </footer>
+
+</body>
+</html>
